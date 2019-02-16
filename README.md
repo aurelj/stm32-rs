@@ -221,7 +221,7 @@ _derive:
     # Peripherals that were 'deriveFrom="KEY"' are now 'deriveFrom="VALUE"'.
     UART5: UART4
 
-# Reorder the heirarchy of peripherals with 'deriveFrom'.
+# Reorder the hierarchy of peripherals with 'deriveFrom'.
 _rebase:
     # The KEY peripheral steals everything but 'interrupt', 'name',
     # and 'baseAddress' elements from the VALUE peripheral.
